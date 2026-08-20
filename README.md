@@ -1,13 +1,9 @@
-Yes. The video is CampusX’s **Movie Recommendation System** project, based on a content-based recommendation approach using movie metadata such as genres, cast, and crew. ([GitHub][1])
-
-Here’s a polished README you can directly put into `README.md`. I’ve kept it **GitHub-project appropriate**, rather than making it look like a course assignment.
-
 # 🎬 Movie Recommendation System
 
 A **content-based movie recommendation system** built using Python and Machine Learning.
 The system recommends movies that are similar to a movie selected by the user based on features such as **genres, keywords, cast, and crew**.
 
-> This project was built as part of my learning journey in Machine Learning and Recommendation Systems, following the CampusX Movie Recommendation System project.
+> This project was built as part of my learning journey in Machine Learning and Recommendation Systems.
 
 ---
 
@@ -170,13 +166,11 @@ Movie-Recommendation-System/
 │
 ├── app.py
 │
-├── Movie_Recommender.ipynb
+├── movie.pkl
 │
-├── movie_dict.pkl
+├── movies_recommender_system.ipynb
 │
 ├── similarity.pkl
-│
-├── requirements.txt
 │
 └── README.md
 ```
@@ -186,10 +180,9 @@ Movie-Recommendation-System/
 | File                      | Description                              |
 | ------------------------- | ---------------------------------------- |
 | `app.py`                  | Streamlit application                    |
-| `Movie_Recommender.ipynb` | Data preprocessing and model development |
-| `movie_dict.pkl`          | Processed movie information              |
-| `similarity.pkl`          | Precomputed movie similarity matrix      |
-| `requirements.txt`        | Required Python dependencies             |
+| `movie_recommender_system.ipynb` | Data preprocessing and model development |
+| `movie.pkl`          | Processed movie information              |
+| `similarity.pkl`          | Precomputed movie similarity matrix      |       
 | `README.md`               | Project documentation                    |
 
 ---
